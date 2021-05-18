@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="1dp"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtNama"
+                android:text="Azri Nurvani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#636363"/>
+            <TextView
+                android:id="@+id/txtNim"
+                android:text="1601082031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+            <TextView
+                android:id="@+id/txtJurusan"
+                android:text="Teknologi Informasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+            <TextView
+                android:id="@+id/txtJekel"
+                android:text="Laki-laki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:text="azri@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#636363"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

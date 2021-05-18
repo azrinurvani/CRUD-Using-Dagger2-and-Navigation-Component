@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRUD Dagger + Navigation Component</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="masukkan_nim">Masukkan NIM</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="pilih_jurusan">Pilih Jurusan</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="update">Update</string>
+    <string name="delete">Hapus</string>
+</resources>
